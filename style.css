@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap");
+  font-family: "Public Sans", sans-serif;
+}
+
+/* NAV PART  */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px -39px 0 -49px;
+  width: 100%;
+}
+
+nav img {
+  width: 268px;
+  height: 100px;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: large;
+}
+
+nav div > :first-child {
+  color: rgb(95, 255, 255);
+}
+
+nav div :nth-child(2) {
+  color: rgb(215, 206, 194);
+}
+nav div :nth-child(3) {
+  color: rgb(215, 206, 194);
+}
+
+/* FIRST PART  */
+
+.conta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px;
+  padding-top: 50px;
+}
+
+.conta img {
+  width: 63px;
+  height: 55px;
+}
+
+.conta :first-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.conta h1 {
+  color: rgb(95, 255, 255);
+  font-size: x-large;
+}
+
+.last-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1015px;
+  color: rgb(191, 180, 166);
+}
+
+/* PART 2 section alpha  */
+
+.alpha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 100px 0px 100px;
+  height: 400px;
+  gap: 20px;
+}
+/* div beta  */
+.beta {
+  gap: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #00ccb1;
+  height: 100%;
+  justify-content: center;
+  width: 300px;
+  height: 345px;
+  color: aliceblue;
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  align-items: baseline;
+  padding: 20px;
+}
+
+/* div OMEGA  */
+.omega {
+  gap: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #3d83df;
+  height: 100%;
+  justify-content: center;
+  width: 300px;
+  height: 345px;
+  color: aliceblue;
+}
+
+.bleu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  align-items: baseline;
+  padding: 20px;
+}
+
+/* div sigma  */
+.sigma {
+  gap: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+
+  height: 100%;
+  justify-content: center;
+  width: 300px;
+  height: 345px;
+  background-color: rgb(26, 37, 50);
+  color: antiquewhite;
+}
+
+.dark-bleu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+#MyDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MySection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.MySection > div :first-child {
+  color: #00ccb1;
+}
+
+/* Part 4  */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  background: #e5faf8;
+  position: relative;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+.child1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lilChild {
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lilChild h3 {
+  color: #00ccb1;
+}
+
+.lilChild p {
+  padding-bottom: 40px;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lilChild {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.lilChild h3 {
+  color: #00ccb1;
+}
+
+.lilChild p {
+  padding-bottom: 40px;
+}
+
+.lilChild2 {
+  background-color: white;
+  border-radius: 10px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.lilChild2 h3 {
+  color: #00ccb1;
+}
+
+#photo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.PDG {
+  position: absolute;
+  top: 135px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.PDG h2 {
+  color: #00ccb1;
+}
